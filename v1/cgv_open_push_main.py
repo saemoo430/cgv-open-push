@@ -75,4 +75,3 @@ def send_stopped_message():
 atexit.register(send_stopped_message)
 
 message_sender_loop()
-`
