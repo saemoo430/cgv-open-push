@@ -1,0 +1,30 @@
+name: CGV Centum Alert
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-cgv-alert:
+    runs-on: ubuntu-latest
+
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install packages
+        run: |
+          pip install -r v1/requirements.txt
+
+      - name: Run CGV Alert
+        run: |
+          cd v1
+          python cgv_open_push_main.py
