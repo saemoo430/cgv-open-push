@@ -3,13 +3,7 @@ import os
 ##################################################
 # ENV
 telegram_bot_token = os.environ["TELEGRAM_BOT_TOKEN"]
-
 telegram_chat_id = os.environ["TELEGRAM_CHAT_ID"]
-
-##################################################
-
-# Telegram_chat_ID
-
 
 
 ##################################################
