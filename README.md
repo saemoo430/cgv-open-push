@@ -17,6 +17,8 @@ image_by_<a href="https://kr.freepik.com/free-photo/3d-render-notification-bell-
 
 ### 📢 안내
 
+용산CGV 알리미를 센텀시티점으로 바꾸는 수정본입니다.
+
 당분간 용산 CGV 특별관에 대한 예매 오픈 알리미만 운영될 예정입니다.
 
 추가 건의나 문의사항은 [issues](https://github.com/0w0i0n0g0/cgv-open-push/issues)에 남겨주시면 남겨주시면 최대한 반영할 수 있도록 하겠습니다.
