@@ -2,7 +2,13 @@ import os
 
 ##################################################
 # ENV
-discord_bot_token = os.environ["DISCORD_BOT_TOKEN"]
+telegram_bot_token = os.environ["TELEGRAM_BOT_TOKEN"]
+
+telegram_chat_id = os.environ["TELEGRAM_CHAT_ID"]
+
+##################################################
+
+# Telegram_chat_ID
 
 
 
@@ -316,6 +322,19 @@ screen_json_data = [
         'Third_Attr_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
         'Language': 'zqWM417GS6dxQ7CIf65+iA==',
     },
+    # 센텀 4DX
+    {
+        'REQSITE': 'x02PG4EcdFrHKluSEQQh4A==',
+        'TheaterCd': '2jX4VAQPhAUY/gxvZBhDdQ==',
+        'ISNormal': 'ECFppiyFz/nvSGsg7VwPQw==',
+        'MovieGroupCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
+        'ScreenRatingCd': '9sxNW0kL/ZE3ioyEu1Em8w==',
+        'MovieTypeCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
+        'Subtitle_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
+        'SOUNDX_YN': 'nG6tVgEQPGU2GvOIdnwTjg==',
+        'Third_Attr_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
+        'Language': 'zqWM417GS6dxQ7CIf65+iA==',
+},
 ]
 
 screen_target_name = [
@@ -328,4 +347,5 @@ screen_target_name = [
     "YEONGDEUNGPO-IMAX",
     "YEONGDEUNGPO-SCREENX",
     "WANGSIMNI-IMAX",
+    "CENTUM-4DX"
 ]
