@@ -199,114 +199,10 @@ screen_headers = {
 }
 
 screen_json_data = [
-    # 용산아이파크몰 IMAX관
-    {
-        'REQSITE': 'x02PG4EcdFrHKluSEQQh4A==',
-        'TheaterCd': 'LMP+XuzWskJLFG41YQ7HGA==',
-        'ISNormal': 'ECFppiyFz/nvSGsg7VwPQw==',
-        'MovieGroupCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'ScreenRatingCd': 'kXwoR3tnLM/+Tu0BILP3Qg==',
-        'MovieTypeCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Subtitle_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'SOUNDX_YN': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Third_Attr_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Language': 'zqWM417GS6dxQ7CIf65+iA==',
-    },
-    # 용산아이파크몰 4DX관
-    {
-        'REQSITE': 'x02PG4EcdFrHKluSEQQh4A==',
-        'TheaterCd': 'LMP+XuzWskJLFG41YQ7HGA==',
-        'ISNormal': 'ECFppiyFz/nvSGsg7VwPQw==',
-        'MovieGroupCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'ScreenRatingCd': '9sxNW0kL/ZE3ioyEu1Em8w==',
-        'MovieTypeCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Subtitle_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'SOUNDX_YN': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Third_Attr_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Language': 'zqWM417GS6dxQ7CIf65+iA==',
-    },
-    # 용산아이파크몰 SCREENX관
-    {
-        'REQSITE': 'x02PG4EcdFrHKluSEQQh4A==',
-        'TheaterCd': 'LMP+XuzWskJLFG41YQ7HGA==',
-        'ISNormal': 'ECFppiyFz/nvSGsg7VwPQw==',
-        'MovieGroupCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'ScreenRatingCd': '1WlMxB/T2xWstAhFsiNSfQ==',
-        'MovieTypeCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Subtitle_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'SOUNDX_YN': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Third_Attr_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Language': 'zqWM417GS6dxQ7CIf65+iA==',
-    },
-    # 여의도 4DX관
-    {
-        'REQSITE': 'x02PG4EcdFrHKluSEQQh4A==',
-        'TheaterCd': '5f4GX7Z6gNcCnYik++dJcA==',
-        'ISNormal': 'ECFppiyFz/nvSGsg7VwPQw==',
-        'MovieGroupCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'ScreenRatingCd': '9sxNW0kL/ZE3ioyEu1Em8w==',
-        'MovieTypeCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Subtitle_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'SOUNDX_YN': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Third_Attr_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Language': 'zqWM417GS6dxQ7CIf65+iA==',
-    },
     # 센텀 IMAX관
     {
         'REQSITE': 'x02PG4EcdFrHKluSEQQh4A==',
         'TheaterCd': '2jX4VAQPhAUY/gxvZBhDdQ==',
-        'ISNormal': 'ECFppiyFz/nvSGsg7VwPQw==',
-        'MovieGroupCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'ScreenRatingCd': 'kXwoR3tnLM/+Tu0BILP3Qg==',
-        'MovieTypeCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Subtitle_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'SOUNDX_YN': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Third_Attr_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Language': 'zqWM417GS6dxQ7CIf65+iA==',
-    },
-    # 서면 IMAX관
-    {
-        'REQSITE': 'x02PG4EcdFrHKluSEQQh4A==',
-        'TheaterCd': 'VCtDd13tWp85DXhl1ss+bw==',
-        'ISNormal': 'ECFppiyFz/nvSGsg7VwPQw==',
-        'MovieGroupCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'ScreenRatingCd': 'kXwoR3tnLM/+Tu0BILP3Qg==',
-        'MovieTypeCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Subtitle_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'SOUNDX_YN': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Third_Attr_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Language': 'zqWM417GS6dxQ7CIf65+iA==',
-    },
-    # 영등포 IMAX관
-    {
-        'REQSITE': 'x02PG4EcdFrHKluSEQQh4A==',
-        'TheaterCd': 'Y5qC4mHnqFvPnE5/3487AQ==',
-        'ISNormal': 'ECFppiyFz/nvSGsg7VwPQw==',
-        'MovieGroupCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'ScreenRatingCd': 'kXwoR3tnLM/+Tu0BILP3Qg==',
-        'MovieTypeCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Subtitle_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'SOUNDX_YN': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Third_Attr_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Language': 'zqWM417GS6dxQ7CIf65+iA==',
-    },
-    # 영등포 SCREENX관
-    {
-        'REQSITE': 'x02PG4EcdFrHKluSEQQh4A==',
-        'TheaterCd': 'Y5qC4mHnqFvPnE5/3487AQ==',
-        'ISNormal': 'ECFppiyFz/nvSGsg7VwPQw==',
-        'MovieGroupCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'ScreenRatingCd': '1WlMxB/T2xWstAhFsiNSfQ==',
-        'MovieTypeCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Subtitle_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'SOUNDX_YN': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Third_Attr_CD': 'nG6tVgEQPGU2GvOIdnwTjg==',
-        'Language': 'zqWM417GS6dxQ7CIf65+iA==',
-    },
-    # 왕십리 IMAX관
-    {
-        'REQSITE': 'x02PG4EcdFrHKluSEQQh4A==',
-        'TheaterCd': '2ziBKjUqqpsaZ8ii0eHHyg==',
         'ISNormal': 'ECFppiyFz/nvSGsg7VwPQw==',
         'MovieGroupCd': 'nG6tVgEQPGU2GvOIdnwTjg==',
         'ScreenRatingCd': 'kXwoR3tnLM/+Tu0BILP3Qg==',
@@ -332,14 +228,6 @@ screen_json_data = [
 ]
 
 screen_target_name = [
-    "YONGSAN-IMAX",
-    "YONGSAN-4DX",
-    "YONGSAN-SCREENX",
-    "YEOUIDO-4DX",
     "CENTUM-IMAX",
-    "SEOMYEON-IMAX",
-    "YEONGDEUNGPO-IMAX",
-    "YEONGDEUNGPO-SCREENX",
-    "WANGSIMNI-IMAX",
     "CENTUM-4DX"
 ]
