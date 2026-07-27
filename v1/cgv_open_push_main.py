@@ -1,4 +1,4 @@
-import discord
+import requests
 import queue
 import time
 import atexit
@@ -8,32 +8,36 @@ from cgv_open_push_global_variable import *
 from cgv_open_push_movie import movie_main
 from cgv_open_push_screen import screen_main
 from logging.handlers import RotatingFileHandler
-from discord.ext import tasks
 
-# 디스코드 봇
-intents = discord.Intents.default()
-client = discord.Client(intents=intents)
 message_queue = multiprocessing.Queue()
+def send_telegram_message(text):
 
-@client.event
-async def on_ready():
-    channel_id = discord_channel_id_dictionary["LOG"]
-    channel = client.get_channel(channel_id)
-    await channel.send('cgv-open-push-discord-bot connected...')
-    await send_message.start()
+    url = (
+        f"http://api.telegram.org/bot"
+        f"{telegram_bot_token}/sendMessage"
+    )
+    payload = {
+        "chat_id": telegram_chat_id,
+        "text": text
+    }
+    try:
+        requests.post(url, json=payload, timeout=10)
+        print(f"Telegram sent: {text}")
+    except Exception as e:
+        print(f"Telegram Error: {e}")
+ 
 
-@tasks.loop(seconds=1)
-async def send_message():
-    if not message_queue.empty():
-        message = message_queue.get(0)
-        channel_id = discord_channel_id_dictionary.get(message[0])
-        print(f"send_message to {message[0]} : {message[1]}, channel_id : {channel_id}")
-        if channel_id:
-            channel = client.get_channel(channel_id)
-            await channel.send(message[1])
 
-def run_cgv_open_push_discord_bot():
-    client.run(discord_bot_token)
+def message_sender_loop():
+    while True:
+        if not message_queue.empty():
+            message = message_queue.get()
+            target_name = message[0]
+            text = message[1]
+            send_telegram_message(
+                f"[{target_name}]\n{text}"
+            )
+        time.sleep(1)
 
 # 프로세스 배열
 processes = []
@@ -70,4 +74,5 @@ def send_stopped_message():
     message_queue.put(["LOG", "cgv-open-push server stopped..."])
 atexit.register(send_stopped_message)
 
-run_cgv_open_push_discord_bot()
+message_sender_loop()
+`
